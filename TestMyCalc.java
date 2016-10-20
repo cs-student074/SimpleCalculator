@@ -1,10 +1,10 @@
-package myCalculator;
 import javax.swing.*;
 
 
 public class TestMyCalc {
 
 	public static void main(String[] args) {
+		//create frame for calculator
 		MyCalcFrame calc = new MyCalcFrame();
 		calc.setSize(300,400);
 		calc.setVisible(true);
